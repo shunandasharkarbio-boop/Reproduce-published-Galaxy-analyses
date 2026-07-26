@@ -1,12 +1,11 @@
-Import and run a Galaxy workflow
---------------------------------------------
+## ⚙️ Import and Run a Galaxy Workflow
 
-Galaxy workflows may be published either directly via the Galaxy server or on public workflow repositories such as WorkflowHub. Thus the workflow may be present in one of the three ways:
+Galaxy workflows can be shared in several ways, including **`.ga` workflow files**, **workflow URLs**, **shared Galaxy accounts**, or through public repositories such as **WorkflowHub**. These workflows enable researchers to reproduce published analyses using the same tools, parameters, and execution steps.
 
-As a .ga file or url link, which needs to be imported into Galaxy
-As a link from a personal Galaxy server account that needs to be added to the own Galaxy account
-as a link that directly starts running the workflow in a specific Galaxy server, which is possible via the WorkflowHub website.
-This tutorial follows option 1, but options 2 and 3 are no more difficult
-Import the workflow either via url directly from Zenodo or by uploading the .ga file
+In this tutorial, the workflow is imported as a **`.ga` file** from **Zenodo** and executed within the Galaxy platform. Once imported, the workflow is configured with the required input datasets and run automatically, reproducing the original computational analysis in a transparent and reproducible manner.
 
-https://zenodo.org/record/5090049/files/main_workflow.ga
+### 📥 Workflow
+
+- **Workflow File:** `main_workflow.ga`
+- **Source:** Zenodo
+- **Purpose:** Import and execute a published Galaxy workflow to reproduce the original analysis.
